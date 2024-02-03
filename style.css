@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body ,html{
+    background-color:#f5c320;
+    /* background-color:  rgb(4, 4, 63); */
+    display: grid;
+     height: 100%;
+    place-items: center;
+    
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.3.9.5rem;
+    text-transform: capitalize;
+    font-family: inherit;
+    border-radius: 10px;
+    
+}
+#container1{
+    width: 600px;
+    padding: 25px 30px;
+    box-shadow: 10px 10px 25px 10px rgba(17, 17, 17, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color:rgb(4,4, 63);
+    color: #f1eaea;
+}
+form{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     width: 100%;
+
+}
+form input {
+    margin: 10px 0 ;
+    outline: none;
+    border: 1px solid #6665ee;
+}
+form input.box{
+    width: 500px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 0 10px;
+     border-radius: 5px;
+}
+form input.button{
+    font-size: 1rem;
+    padding: 12px 20px;
+    background-color:#ebb30c;
+    color: rgb(32, 32, 32);
+    font-weight: 750;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+h5{
+    background-color: #cc321a;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px 0;
+    color: #000;
+}
+.feedback{
+    display: none;
+
+}
+.show{
+    display: block;
+}
+.message-content{
+    color: #bbf717;
+    font-size: 30px;
+    line-height: 3rem;
+    font-weight: 300;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
